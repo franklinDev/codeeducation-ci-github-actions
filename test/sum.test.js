@@ -1,8 +1,6 @@
 const sum = require('../sum');
 const assert = require('assert');
 
-describe('test sum', function () {
-  it('should return 3 when sum 1 + 2', function () {
-    assert.equal(sum(1, 2), 4);
-  });
-});
+test("should return 3 when sum 1 + 2", () => {
+  expect(sum(1,2)).toBe(3)
+})
