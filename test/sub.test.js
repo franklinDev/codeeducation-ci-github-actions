@@ -1,5 +1,5 @@
-const module = require('../sum');
+const mod = require('../sum');
 
 test("should return 1 when sub", () => {
-  expect(module.sub(3,2)).toBe(1)
+  expect(mod.sub(3,2)).toBe(1)
 })
