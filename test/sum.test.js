@@ -1,6 +1,5 @@
-const sum = require('../sum');
-const assert = require('assert');
+const module = require('../sum');
 
 test("should return 3 when sum 1 + 2", () => {
-  expect(sum(1,2)).toBe(3)
+  expect(module.sum(1,2)).toBe(3)
 })
